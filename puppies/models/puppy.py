@@ -8,7 +8,6 @@ class Puppy(models.Model):
     """
     
     name = models.CharField(max_length=255)
-    size=models.CharField(max_length=10)
     age = models.IntegerField()
     breed = models.CharField(max_length=255)
     color = models.CharField(max_length=255)

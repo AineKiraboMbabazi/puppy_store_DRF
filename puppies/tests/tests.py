@@ -1,7 +1,6 @@
 from django.test import TestCase
-
-# Create your tests here.
 from ..models.puppy import Puppy
+# Create your tests here.
 
 
 class PuppyTest(TestCase):
